@@ -1,0 +1,9 @@
+.slide{
+    background-color: aqua;
+    color: white;
+    margin-top: -250px;
+    opacity: 0;
+    transition-property: margin-top,opacity;
+    transition-duration: 1s;
+
+}

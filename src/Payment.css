@@ -1,0 +1,49 @@
+.payment{
+    background-color: black;
+}
+.payment__container h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #cd9042;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__container h1 a {
+    text-decoration: none;
+}
+
+.payment__section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid #cd9042;
+}
+
+.payment__title{
+    color: white;
+    flex: 0.2;
+}
+
+
+.payment__address, .payment__items, .payment__details{
+    color: white;
+    flex: 0.8;
+}
+
+
+
+.progress-box {
+    height: 30px;
+    width: 230px;
+    background-color: #8f8fa3;
+    margin: 4px auto;
+    margin-left: 295px;
+  }
+  .mover {
+    background-color: #cd9042;
+    width: 0;
+    height: inherit;
+    transition: width 1s linear 1s;
+  }

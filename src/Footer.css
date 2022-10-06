@@ -1,0 +1,29 @@
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #cd9042;
+    position:none ;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.footer__add{
+    height: 145px;
+    width: 645px;
+    margin-bottom: 10px;
+    padding-left: 200px;
+}
+
+.footer__row{
+    color: black;
+    padding-left: 160px;
+    font-weight: solid900 ;
+}
+.footer__container{
+    display: flex;
+}
+
+
+
+
